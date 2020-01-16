@@ -75,8 +75,8 @@ body {
     }  
     
     .video{
-
-    
+      margin: 0;
+ 
     
 }    
     
@@ -102,8 +102,8 @@ p{
 .video{
     margin-left: 25%;
     margin-right: 25%;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     
 }
 
