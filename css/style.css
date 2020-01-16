@@ -1,0 +1,113 @@
+.clear{
+    opacity: .9;
+  filter: alpha(opacity=60);
+   background-color: #ffffff; 
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+  height: 1000px;
+}
+
+/* Header/Logo Title -3 */
+.header {
+  padding: 60px;
+  font-size: 30px;
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 8em;
+  background-color: aqua;
+  z-index: -3;
+}
+
+/* profile picture */
+.pfp{
+   border-radius: 50%;
+   /* background-image: url(../img/pfp.jpg);*/
+   width: 200px; 
+   padding: 10px;  
+   position: relative;
+   margin-top: 75px;
+   display: block;   
+   margin-left: 130px;
+   
+    
+}
+
+
+
+.about{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px; 
+    
+    
+}   
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .pfp{
+    border-radius: 50%;
+   /* background-image: url(../img/pfp.jpg);*/
+    width: 200px; 
+    padding: 10px;  
+    display: block;
+    margin-left: 80px;
+    }
+        
+    .about{   
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px; 
+    align-content: center;
+    display: block;
+      
+    }  
+    
+    .video{
+
+    
+    
+}    
+    
+} 
+
+
+p{
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+}
+
+.video{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 500px;
+    height: 400px;
+    
+}
+
+.b{
+    color: blue;
+}
+
